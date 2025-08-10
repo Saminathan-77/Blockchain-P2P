@@ -12,6 +12,7 @@ class TransactionModel(BaseModel):
     amount: float
     timestamp: Optional[float] = None
     txid: Optional[str] = None
+    
 
 class BlockModel(BaseModel):
     index: int
